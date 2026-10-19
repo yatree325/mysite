@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>華聯食品工業股份有限公司 - 松本海鮮製品 | 40年老字號日式火鍋料與蒲鉾專賣</title>
+    
+    <!-- SEO / GEO / AEO Meta Tags -->
+    <meta name="description" content="華聯食品工業股份有限公司（松本海鮮製品）創立40年，傳承日本正統蒲鉾與日式火鍋料製作工藝。專營白魚板切片、富貴切片、松本板、蝦球、日式火鍋料批發與客製化美食供應。基隆在地老字號，嚴選深海魚漿與天然食材。">
+    <meta name="keywords" content="華聯食品, 松本海鮮製品, 華聯食品工業股份有限公司, 白魚板切片, 富貴切片, 松本板, 蝦球, 日本棒, 日式火鍋料, 基隆食品廠, 蒲鉾製作, 火鍋料批發">
+    <link rel="canonical" href="https://www.hualing.com.tw/">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="華聯食品工業股份有限公司 - 松本海鮮製品">
+    <meta property="og:description" content="傳承40年日本正統蒲鉾與日式火鍋料工藝,嚴選頂級深海魚漿,成就絕佳Q彈口感。">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_TW">
+    
+    <!-- Schema.org Structured Data for SEO / GEO / AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "華聯食品工業股份有限公司",
+      "alternateName": "松本海鮮製品",
+      "url": "https://www.hualing.com.tw/",
+      "logo": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=300&q=80",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "自強路102號",
+        "addressLocality": "七堵區",
+        "addressRegion": "基隆市",
+        "postalCode": "206",
+        "addressCountry": "TW"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+886-2-2456-7171",
+        "contactType": "customer service",
+        "email": "hualian24567171@gmail.com"
+      },
+      "sameAs": [
+        "https://www.facebook.com/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "華聯食品的主要產品有哪些？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "華聯食品（松本海鮮製品）主營日式蒲鉾製品、白魚板切片、富貴切片、松本板、松竹梅壽喜、蝦球、京之貝、火鍋料及各類魚漿製品。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如何聯繫華聯食品進行批發或洽詢？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "您可以透過電話 (02) 2456-7171、傳真 (02) 2456-7998，或使用官方網站的線上聯絡表單與我們聯繫，表單資料將即時寫入您的 Google 試算表。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "松本海鮮製品的工藝源自哪裡？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "創辦人遠赴日本全國蒲鉾研究所及相關工廠見習，潛心研究海鮮食品加工技術，回國後致力於重現最純正的日式道地風味。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "產品是否適合各大餐飲與批發？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，華聯食品風行國內外多年，廣受各大知名餐廳、日本料理、火鍋店與批發商指定使用。"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fcf8f2',
+                            100: '#f7eee1',
+                            200: '#edd8bc',
+                            300: '#dfbc8d',
+                            400: '#d09b60',
+                            500: '#c27d38',
+                            600: '#b06b2e',
+                            700: '#925426',
+                            800: '#774322',
+                            900: '#62381f',
+                        },
+                        techDark: {
+                            bg: '#0b132b',
+                            card: '#1c2541',
+                            border: '#3a506b',
+                            text: '#e0fbfc',
+                            muted: '#8ecae6'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+        }
+        .dark .glass-panel {
+            background: rgba(28, 37, 65, 0.88);
+            backdrop-filter: blur(12px);
+            border-color: rgba(58, 80, 107, 0.5);
+        }
+        /* Sound wave animation */
+        @keyframes soundWave {
+            0%, 100% { height: 6px; }
+            50% { height: 18px; }
+        }
+        .wave-bar-1 { animation: soundWave 0.8s ease-in-out infinite; }
+        .wave-bar-2 { animation: soundWave 0.5s ease-in-out infinite 0.2s; }
+        .wave-bar-3 { animation: soundWave 0.7s ease-in-out infinite 0.4s; }
+    </style>
+</head>
+<body class="bg-brand-50 text-stone-800 dark:bg-techDark-bg dark:text-techDark-text min-h-screen flex flex-col transition-colors duration-300">
+
+    <!-- Sticky Header with Dual Mode & Mobile Hamburger -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-brand-200/55 dark:border-techDark-border shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 rounded-full bg-white dark:bg-techDark-card p-1 shadow border border-brand-300 dark:border-techDark-border flex items-center justify-center overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=300&q=80" alt="松本商標" class="w-full h-full object-cover rounded-full" onerror="this.src='https://placehold.co/100x100/c27d38/ffffff?text=松本'">
+                </div>
+                <div>
+                    <h1 class="font-bold text-base sm:text-lg tracking-wide text-brand-900 dark:text-techDark-text">華聯食品工業股份有限公司</h1>
+                    <p class="text-xs text-brand-600 dark:text-techDark-muted font-medium">松本海鮮製品 · 道地原味</p>
+                </div>
+            </div>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">品牌故事</a>
+                <a href="#hero-banner" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">主視覺</a>
+                <a href="#catalog" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">產品型錄</a>
+                <a href="#craft" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">製程工藝</a>
+                <a href="#faq" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">常見問題</a>
+                <a href="#contact" class="hover:text-brand-600 dark:hover:text-techDark-muted transition">聯絡我們</a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <!-- Theme Toggle Button -->
+                <button onclick="toggleTheme()" class="p-2.5 rounded-full bg-white dark:bg-techDark-card text-brand-700 dark:text-techDark-muted shadow hover:scale-105 transition border border-brand-200 dark:border-techDark-border" title="切換深淺模式">
+                    <i id="themeIcon" class="fa-solid fa-moon dark:hidden"></i>
+                    <i id="themeIconDark" class="fa-solid fa-sun hidden dark:block"></i>
+                </button>
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2.5 rounded-full bg-white dark:bg-techDark-card text-brand-700 dark:text-techDark-muted shadow border border-brand-200 dark:border-techDark-border">
+                    <i class="fa-solid fa-bars text-base"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Nav -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white/95 dark:bg-techDark-card/95 border-b border-brand-200 dark:border-techDark-border px-6 py-4 space-y-3 shadow-xl backdrop-blur-md">
+            <a href="#about" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">品牌故事</a>
+            <a href="#hero-banner" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">主視覺</a>
+            <a href="#catalog" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">產品型錄</a>
+            <a href="#craft" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">製程工藝</a>
+            <a href="#faq" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">常見問題</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block text-sm font-bold text-stone-800 dark:text-techDark-text py-1.5 hover:text-brand-600">聯絡我們</a>
+        </div>
+    </header>
+
+    <!-- Hidden Audio element for ambient background music -->
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf756.mp3?filename=gentle-day-11100.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Atmosphere Music Player Capsule (Bottom Right) -->
+    <div class="fixed bottom-6 right-6 z-40 bg-white/90 dark:bg-techDark-card/90 border border-brand-200 dark:border-techDark-border shadow-2xl rounded-full px-4 py-2.5 flex items-center space-x-3 backdrop-blur-md transition-all hover:scale-105">
+        <button onclick="toggleMusic()" id="floatMusicBtn" class="w-8 h-8 rounded-full bg-brand-600 dark:bg-techDark-muted text-white dark:text-techDark-bg flex items-center justify-center shadow transition" title="播放/暫停背景音樂">
+            <i id="floatPlayIcon" class="fa-solid fa-play text-xs ml-0.5"></i>
+        </button>
+        <div class="flex flex-col">
+            <span class="text-[11px] font-bold text-brand-900 dark:text-techDark-text" id="floatMusicStatus">氛圍音樂</span>
+            <div id="audioWave" class="hidden items-center space-x-1 h-3 mt-0.5">
+                <div class="w-1 bg-brand-500 dark:bg-techDark-muted rounded-full wave-bar-1"></div>
+                <div class="w-1 bg-brand-500 dark:bg-techDark-muted rounded-full wave-bar-2"></div>
+                <div class="w-1 bg-brand-500 dark:bg-techDark-muted rounded-full wave-bar-3"></div>
+            </div>
+            <span class="text-[9px] text-stone-500 dark:text-stone-400" id="floatMusicSub">點擊播放</span>
+        </div>
+    </div>
+
+    <main class="flex-grow">
+        <!-- Brand Story Section -->
+        <section id="about" class="max-w-5xl mx-auto px-4 py-12">
+            <div class="bg-white dark:bg-techDark-card rounded-3xl p-6 sm:p-10 shadow-xl border border-brand-100 dark:border-techDark-border relative overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                <div class="absolute -right-16 -top-16 w-48 h-48 bg-brand-200/30 dark:bg-techDark-border/30 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-brand-100 dark:bg-techDark-border text-brand-800 dark:text-techDark-text rounded-full text-xs font-bold mb-4 shadow-sm">
+                            <i class="fa-solid fa-award"></i>
+                            <span>40年老字號傳承</span>
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl font-black text-brand-900 dark:text-techDark-text mb-4 leading-snug">
+                            透過朋友的介紹及推薦，遠赴日本全國蒲鉾研究所及相關工廠見習
+                        </h2>
+                        <p class="text-stone-600 dark:text-stone-300 text-sm sm:text-base leading-relaxed mb-6">
+                            潛心研究，學會海鮮食品加工業的各種技術，回國後致力於重現最純正的日式道地風味，嚴選深海魚漿與天然食材，成就絕佳Q彈口感。
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-3 py-1.5 bg-brand-50 dark:bg-techDark-bg text-brand-700 dark:text-techDark-muted text-xs font-semibold rounded-lg border border-brand-200 dark:border-techDark-border">
+                                <i class="fa-solid fa-check text-brand-500 mr-1.5"></i> 40年老字號傳承
+                            </span>
+                            <span class="px-3 py-1.5 bg-brand-50 dark:bg-techDark-bg text-brand-700 dark:text-techDark-muted text-xs font-semibold rounded-lg border border-brand-200 dark:border-techDark-border">
+                                <i class="fa-solid fa-check text-brand-500 mr-1.5"></i> 日本見習正統技術
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Editable Brand Story Image Container -->
+                    <div class="relative group rounded-2xl overflow-hidden shadow-lg border-2 border-brand-200 dark:border-techDark-border">
+                        <img id="brandStoryImg" src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80" alt="松本道地工藝" class="w-full h-72 sm:h-80 object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/800x500/c27d38/ffffff?text=松本道地工藝'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-5">
+                            <h3 class="text-white font-bold text-lg mb-1">松本道地工藝</h3>
+                            <p class="text-stone-200 text-xs line-clamp-1">嚴選優良魚漿與天然食材，成就絕佳Q彈口感。</p>
+                        </div>
+                        <button onclick="openImageModal('brandStoryImg', '品牌故事主圖')" class="absolute top-3 right-3 bg-brand-600 hover:bg-brand-700 text-white text-xs px-3.5 py-2 rounded-xl shadow-lg opacity-90 hover:opacity-100 transition flex items-center space-x-1.5 font-bold">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <span>修改圖片</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Main Visual Banner Section (Using requested custom main visual) -->
+        <section id="hero-banner" class="max-w-7xl mx-auto px-4 py-8">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-techDark-border bg-stone-900 group transition-all duration-300 hover:shadow-3xl">
+                <img id="mainVisualImg" src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=1400&q=80" alt="華聯食品豪華海鮮拼盤主視覺" class="w-full h-[320px] sm:h-[480px] object-cover group-hover:scale-102 transition duration-700" onerror="this.src='https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=1400&q=80'">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-6 sm:p-10">
+                    <div class="max-w-2xl">
+                        <span class="px-3.5 py-1.5 bg-brand-500 text-white text-xs font-bold rounded-full mb-3 inline-block shadow">官方旗艦主視覺</span>
+                        <h2 class="text-2xl sm:text-4xl font-black text-white mb-2 leading-tight">品味是一種微妙的感覺，華聯邀您一同享受來自海洋的味道</h2>
+                        <p class="text-stone-200 text-xs sm:text-sm">頂級日式火鍋料、精選蒲鉾與海鮮製品，滿足各大餐廳與家庭宴席的極致饗宴。</p>
+                    </div>
+                </div>
+                <button onclick="openImageModal('mainVisualImg', '主視覺橫幅大圖')" class="absolute top-4 right-4 bg-brand-600 hover:bg-brand-700 text-white text-xs px-3.5 py-2 rounded-xl shadow-lg opacity-90 hover:opacity-100 transition flex items-center space-x-1.5 font-bold">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <span>更換主視覺圖片</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Product Catalog & Category Filters Section -->
+        <section id="catalog" class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-brand-200 dark:border-techDark-border gap-4">
+                <div>
+                    <span class="text-brand-600 dark:text-techDark-muted text-xs font-bold tracking-widest uppercase mb-1 block">PRODUCT CATALOG</span>
+                    <h2 class="text-3xl font-black text-brand-900 dark:text-techDark-text">精選產品型錄</h2>
+                </div>
+                
+                <!-- Category Filter Buttons & Add Product -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <div id="categoryFilters" class="flex flex-wrap gap-1.5 bg-brand-100/70 dark:bg-techDark-card p-1.5 rounded-2xl border border-brand-200 dark:border-techDark-border">
+                        <button onclick="filterCategory('all')" class="cat-btn px-4 py-2 rounded-xl text-xs font-bold bg-brand-600 text-white shadow transition" data-cat="all">全部商品</button>
+                        <button onclick="filterCategory('fishcake')" class="cat-btn px-4 py-2 rounded-xl text-xs font-bold text-stone-700 dark:text-techDark-text hover:bg-white dark:hover:bg-techDark-border transition" data-cat="fishcake">蒲鉾與切片</button>
+                        <button onclick="filterCategory('box')" class="cat-btn px-4 py-2 rounded-xl text-xs font-bold text-stone-700 dark:text-techDark-text hover:bg-white dark:hover:bg-techDark-border transition" data-cat="box">盒裝與禮盒</button>
+                        <button onclick="filterCategory('hotpot')" class="cat-btn px-4 py-2 rounded-xl text-xs font-bold text-stone-700 dark:text-techDark-text hover:bg-white dark:hover:bg-techDark-border transition" data-cat="hotpot">火鍋料與丸類</button>
+                    </div>
+
+                    <button onclick="openAddProductModal()" class="px-4 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold shadow transition flex items-center space-x-1.5">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>新增產品</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product Cards Grid -->
+            <div id="productGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
+                <!-- Dynamically populated via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Craftsmanship Section -->
+        <section id="craft" class="max-w-7xl mx-auto px-4 py-12">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-brand-600 dark:text-techDark-muted text-xs font-bold tracking-widest uppercase mb-1 block">CRAFTED WITH CARE</span>
+                <h2 class="text-3xl font-black text-brand-900 dark:text-techDark-text mb-3">嚴謹製程與品質保證</h2>
+                <p class="text-stone-600 dark:text-stone-300 text-xs sm:text-sm">從深海捕撈到職人絞打，每一個環節都堅持最高衛生與美味標準。</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Craft Card 1 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl p-6 shadow-lg border border-brand-100 dark:border-techDark-border text-center relative group transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 border border-brand-200 dark:border-techDark-border">
+                        <img id="craftImg1" src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80" alt="嚴選優良魚漿" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x400/c27d38/ffffff?text=魚漿製程'">
+                        <button onclick="openImageModal('craftImg1', '製程圖片 1')" class="absolute top-2 right-2 bg-brand-600 text-white text-xs px-2.5 py-1 rounded-lg opacity-90 hover:opacity-100 shadow transition font-bold">
+                            <i class="fa-solid fa-pen"></i> 修改
+                        </button>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 dark:text-techDark-text mb-2">嚴選優良魚漿</h3>
+                    <p class="text-stone-600 dark:text-stone-300 text-xs leading-relaxed">嚴格挑選頂級深海魚漿，經過專業絞打與溫度控制，造就無與倫比的Q彈咬勁。</p>
+                </div>
+
+                <!-- Craft Card 2 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl p-6 shadow-lg border border-brand-100 dark:border-techDark-border text-center relative group transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 border border-brand-200 dark:border-techDark-border">
+                        <img id="craftImg2" src="https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=600&q=80" alt="衛生安全第一" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x400/c27d38/ffffff?text=衛生安全'">
+                        <button onclick="openImageModal('craftImg2', '製程圖片 2')" class="absolute top-2 right-2 bg-brand-600 text-white text-xs px-2.5 py-1 rounded-lg opacity-90 hover:opacity-100 shadow transition font-bold">
+                            <i class="fa-solid fa-pen"></i> 修改
+                        </button>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 dark:text-techDark-text mb-2">衛生安全第一</h3>
+                    <p class="text-stone-600 dark:text-stone-300 text-xs leading-relaxed">秉持「自己做，衛生又好吃」的初衷，廠房與製程符合嚴格衛生標準，讓消費者安心享用。</p>
+                </div>
+
+                <!-- Craft Card 3 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl p-6 shadow-lg border border-brand-100 dark:border-techDark-border text-center relative group transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 border border-brand-200 dark:border-techDark-border">
+                        <img id="craftImg3" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="風行國內外多年" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x400/c27d38/ffffff?text=風行多年'">
+                        <button onclick="openImageModal('craftImg3', '製程圖片 3')" class="absolute top-2 right-2 bg-brand-600 text-white text-xs px-2.5 py-1 rounded-lg opacity-90 hover:opacity-100 shadow transition font-bold">
+                            <i class="fa-solid fa-pen"></i> 修改
+                        </button>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 dark:text-techDark-text mb-2">風行國內外多年</h3>
+                    <p class="text-stone-600 dark:text-stone-300 text-xs leading-relaxed">無論是家庭大宴小酌、知名日式料理或各大餐廳，皆指定使用松本海鮮製品。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ / AEO 4 大核心問答手風琴元件 Section -->
+        <section id="faq" class="max-w-4xl mx-auto px-4 py-12">
+            <div class="text-center mb-10">
+                <span class="text-brand-600 dark:text-techDark-muted text-xs font-bold tracking-widest uppercase mb-1 block">FAQ & AEO GUIDE</span>
+                <h2 class="text-3xl font-black text-brand-900 dark:text-techDark-text mb-2">常見問題解答 (FAQ)</h2>
+                <p class="text-stone-600 dark:text-stone-300 text-xs sm:text-sm">為您解答關於華聯食品與松本海鮮製品的核心疑問與採購須知。</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl shadow-md border border-brand-100 dark:border-techDark-border overflow-hidden transition">
+                    <button onclick="toggleFaq(1)" class="w-full px-6 py-4 text-left flex justify-between items-center font-bold text-sm sm:text-base text-brand-900 dark:text-techDark-text focus:outline-none">
+                        <span>Q1：華聯食品的主要產品有哪些？</span>
+                        <i id="faqIcon1" class="fa-solid fa-chevron-down text-brand-600 dark:text-techDark-muted transition-transform duration-300"></i>
+                    </button>
+                    <div id="faqAns1" class="hidden px-6 pb-5 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed border-t border-stone-100 dark:border-techDark-border pt-3">
+                        華聯食品（松本海鮮製品）主營日式蒲鉾製品、白魚板切片、富貴切片、松本板、松竹梅壽喜、蝦球、京之貝、火鍋料及各類魚漿製品，滿足各大餐飲與批發需求。
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl shadow-md border border-brand-100 dark:border-techDark-border overflow-hidden transition">
+                    <button onclick="toggleFaq(2)" class="w-full px-6 py-4 text-left flex justify-between items-center font-bold text-sm sm:text-base text-brand-900 dark:text-techDark-text focus:outline-none">
+                        <span>Q2：如何聯繫華聯食品進行批發或洽詢？</span>
+                        <i id="faqIcon2" class="fa-solid fa-chevron-down text-brand-600 dark:text-techDark-muted transition-transform duration-300"></i>
+                    </button>
+                    <div id="faqAns2" class="hidden px-6 pb-5 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed border-t border-stone-100 dark:border-techDark-border pt-3">
+                        您可以透過電話 (02) 2456-7171、傳真 (02) 2456-7998，或直接使用本網站底部的線上聯絡表單與我們聯繫，表單資料將即時寫入您的 Google 試算表，我們將有專人盡速為您服務。
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl shadow-md border border-brand-100 dark:border-techDark-border overflow-hidden transition">
+                    <button onclick="toggleFaq(3)" class="w-full px-6 py-4 text-left flex justify-between items-center font-bold text-sm sm:text-base text-brand-900 dark:text-techDark-text focus:outline-none">
+                        <span>Q3：松本海鮮製品的工藝源自哪裡？</span>
+                        <i id="faqIcon3" class="fa-solid fa-chevron-down text-brand-600 dark:text-techDark-muted transition-transform duration-300"></i>
+                    </button>
+                    <div id="faqAns3" class="hidden px-6 pb-5 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed border-t border-stone-100 dark:border-techDark-border pt-3">
+                        創辦人遠赴日本全國蒲鉾研究所及相關工廠見習，潛心研究海鮮食品加工技術，回國後致力於重現最純正的日式道地風味，嚴選深海魚漿與天然食材，成就絕佳Q彈口感。
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white dark:bg-techDark-card rounded-2xl shadow-md border border-brand-100 dark:border-techDark-border overflow-hidden transition">
+                    <button onclick="toggleFaq(4)" class="w-full px-6 py-4 text-left flex justify-between items-center font-bold text-sm sm:text-base text-brand-900 dark:text-techDark-text focus:outline-none">
+                        <span>Q4：產品是否適合各大餐飲與批發？</span>
+                        <i id="faqIcon4" class="fa-solid fa-chevron-down text-brand-600 dark:text-techDark-muted transition-transform duration-300"></i>
+                    </button>
+                    <div id="faqAns4" class="hidden px-6 pb-5 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed border-t border-stone-100 dark:border-techDark-border pt-3">
+                        是的，華聯食品風行國內外多年，廣受各大知名餐廳、日本料理、火鍋店與批發商指定使用，品質穩定、衛生安全第一。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section with GAS Integrated Form -->
+        <section id="contact" class="max-w-4xl mx-auto px-4 py-12">
+            <div class="bg-white dark:bg-techDark-card rounded-3xl p-6 sm:p-10 shadow-xl border border-brand-100 dark:border-techDark-border transition-all duration-300">
+                <div class="text-center mb-8">
+                    <span class="text-brand-600 dark:text-techDark-muted text-xs font-bold tracking-widest uppercase mb-1 block">GET IN TOUCH</span>
+                    <h2 class="text-3xl font-black text-brand-900 dark:text-techDark-text mb-2">與我們聯繫</h2>
+                    <p class="text-stone-600 dark:text-stone-300 text-xs sm:text-sm">歡迎各大餐廳、批發商與消費者洽詢訂購，表單資料將直接寫入您的 Google 試算表。</p>
+                </div>
+
+                <form id="contactForm" onsubmit="submitContactForm(event)" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">您的姓名 / 公司名 *</label>
+                            <input type="text" id="cf_name" required class="w-full px-4 py-2.5 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="例如：王小明 / 豐盛日本料理">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">聯絡電話 *</label>
+                            <input type="tel" id="cf_phone" required class="w-full px-4 py-2.5 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="例如：0912-345678">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">電子郵件 Email</label>
+                        <input type="email" id="cf_email" class="w-full px-4 py-2.5 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="hualian@example.com">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">洽詢內容與規格數量 *</label>
+                        <textarea id="cf_message" rows="4" required class="w-full px-4 py-2.5 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="請輸入您想詢問的產品、規格與數量..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-sm font-bold shadow-lg transition flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>送出洽詢表單</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-10 h-10 rounded-full bg-white p-1 flex items-center justify-center font-bold overflow-hidden shadow">
+                        <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=300&q=80" alt="松本logo" class="w-full h-full object-cover rounded-full" onerror="this.src='https://placehold.co/100x100/c27d38/ffffff?text=松本'">
+                    </div>
+                    <span class="text-white font-bold text-lg">華聯食品工業股份有限公司</span>
+                </div>
+                <p class="text-xs text-stone-400 leading-relaxed">
+                    傳承日本正統蒲鉾與日式火鍋料製作工藝，為您提供最道地、美味、安全的頂級海鮮製品。
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4">聯絡資訊</h4>
+                <p class="text-xs mb-2"><i class="fa-solid fa-location-dot text-brand-500 mr-2"></i>公司地址：台灣基隆市七堵區自強路102號</p>
+                <p class="text-xs mb-2"><i class="fa-solid fa-phone text-brand-500 mr-2"></i>電話：(02) 2456-7171</p>
+                <p class="text-xs mb-2"><i class="fa-solid fa-fax text-brand-500 mr-2"></i>傳真：(02) 2456-7998</p>
+                <p class="text-xs"><i class="fa-solid fa-envelope text-brand-500 mr-2"></i>Email：hualian24567171@gmail.com</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4">官方網站與防偽聲明</h4>
+                <p class="text-xs mb-2"><i class="fa-solid fa-globe text-brand-500 mr-2"></i>官方網址：www.hualing.com.tw</p>
+                <p class="text-xs text-stone-500">圖片僅供參考，一切以實物為準。版權所有 © 2026 華聯食品工業股份有限公司.</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 text-center border-t border-stone-800 pt-6 text-xs text-stone-500">
+            華聯食品工業股份有限公司 · All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Image Edit Modal -->
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white dark:bg-techDark-card rounded-3xl max-w-md w-full p-6 shadow-2xl border border-brand-200 dark:border-techDark-border">
+            <h3 id="imageModalTitle" class="text-lg font-bold text-brand-900 dark:text-techDark-text mb-4">修改圖片</h3>
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">輸入任意圖片網址 (URL)：</label>
+                    <input type="text" id="newImageUrl" placeholder="https://example.com/image.jpg" class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">或從您的裝置上傳圖片檔案：</label>
+                    <input type="file" id="newImageFile" accept="image/*" class="w-full text-xs text-stone-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-semibold file:bg-brand-50 file:text-brand-700">
+                </div>
+            </div>
+            <div class="flex justify-end space-x-3 mt-6">
+                <button onclick="closeImageModal()" class="px-4 py-2 bg-stone-200 dark:bg-techDark-border text-stone-700 dark:text-techDark-text text-xs font-bold rounded-xl">取消</button>
+                <button onclick="saveNewImage()" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-xl">儲存圖片</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Add / Edit Modal -->
+    <div id="productModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white dark:bg-techDark-card rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-brand-200 dark:border-techDark-border max-h-[90vh] overflow-y-auto">
+            <h3 id="productModalTitle" class="text-lg font-bold text-brand-900 dark:text-techDark-text mb-4">新增 / 編輯產品</h3>
+            <input type="hidden" id="editProductId">
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">產品名稱 *</label>
+                    <input type="text" id="prodNameInput" class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="例如：白魚板切片">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">規格 *</label>
+                    <input type="text" id="prodSpecInput" class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="例如：3KGx6=18KG">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">分類 *</label>
+                    <select id="prodCatInput" class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text">
+                        <option value="fishcake">蒲鉾與切片</option>
+                        <option value="box">盒裝與禮盒</option>
+                        <option value="hotpot">火鍋料與丸類</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">圖片來源 URL 或上傳檔案：</label>
+                    <input type="text" id="prodImgInput" placeholder="https://..." class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text mb-2">
+                    <input type="file" id="prodImgFile" accept="image/*" class="w-full text-xs text-stone-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-stone-700 dark:text-techDark-muted mb-1">產品簡介 / 描述</label>
+                    <textarea id="prodDescInput" rows="3" class="w-full px-3 py-2 text-xs rounded-xl border border-stone-300 dark:border-techDark-border bg-stone-50 dark:bg-techDark-bg text-stone-800 dark:text-techDark-text" placeholder="產品特色說明..."></textarea>
+                </div>
+            </div>
+            <div class="flex justify-end space-x-3 mt-6">
+                <button onclick="closeProductModal()" class="px-4 py-2 bg-stone-200 dark:bg-techDark-border text-stone-700 dark:text-techDark-text text-xs font-bold rounded-xl">取消</button>
+                <button onclick="saveProductData()" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-xl">儲存產品</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="detailModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white dark:bg-techDark-card rounded-3xl max-w-md w-full p-6 shadow-2xl border border-brand-200 dark:border-techDark-border text-center relative">
+            <button onclick="closeDetailModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-stone-100 dark:bg-techDark-border flex items-center justify-center text-stone-600 dark:text-techDark-text hover:bg-stone-200 transition">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="w-full h-56 rounded-2xl overflow-hidden mb-4 border border-brand-100 dark:border-techDark-border">
+                <img id="detailImg" src="" alt="產品大圖" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x400/c27d38/ffffff?text=商品'">
+            </div>
+            <h3 id="detailTitle" class="text-xl font-black text-brand-900 dark:text-techDark-text mb-2"></h3>
+            <div class="inline-block px-3 py-1 bg-brand-100 dark:bg-techDark-border text-brand-800 dark:text-techDark-text text-xs font-bold rounded-full mb-3" id="detailSpec"></div>
+            <p id="detailDesc" class="text-stone-600 dark:text-stone-300 text-xs sm:text-sm leading-relaxed mb-6"></p>
+            <button onclick="closeDetailModal()" class="w-full py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold shadow transition">關閉</button>
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        function initTheme() {
+            const savedTheme = localStorage.getItem('hualian_theme');
+            if (savedTheme === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('hualian_theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('hualian_theme', 'dark');
+            }
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        function toggleFaq(id) {
+            for (let i = 1; i <= 4; i++) {
+                const ans = document.getElementById('faqAns' + i);
+                const icon = document.getElementById('faqIcon' + i);
+                if (i === id) {
+                    ans.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                } else {
+                    ans.classList.add('hidden');
+                    icon.classList.remove('rotate-180');
+                }
+            }
+        }
+
+        let products = [
+            { id: 1, name: '小白兔', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80', desc: '可愛小白兔造型蒲鉾，口感Ｑ彈，火鍋與便當裝飾首選。' },
+            { id: 2, name: '富貴切片', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80', desc: '經典富貴切片，火鍋與宴席料理必須聖品。' },
+            { id: 3, name: '北海玉切片', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80', desc: '北海玉切片，鮮美甘甜，日式風味十足。' },
+            { id: 4, name: '四季切片', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=400&q=80', desc: '四季切片，精緻花紋與紮實魚漿完美結合。' },
+            { id: 5, name: '白魚板切片', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80', desc: '純白細緻魚板切片，火鍋及關東煮最佳良伴。' },
+            { id: 6, name: '梅花板切片', spec: '3KGx6=18KG', cat: 'fishcake', img: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80', desc: '梅花板切片，色澤美觀，口感Q彈有嚼勁。' },
+            { id: 7, name: '三重卷(盒)', spec: '5入x12=60入', cat: 'box', img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80', desc: '三重卷盒裝，層次豐富，美味大方。' },
+            { id: 8, name: '越前棒(盒)', spec: '20入x6=120入', cat: 'box', img: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80', desc: '越前棒禮盒裝，送禮自用兩相宜。' },
+            { id: 9, name: '日本棒(盒)', spec: '20入x6=120入', cat: 'box', img: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=400&q=80', desc: '正統日本工藝棒，風行國內外多年經典款。' },
+            { id: 10, name: '四季卷(盒)', spec: '5入x24=120入', cat: 'box', img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80', desc: '四季卷盒裝，口感滑順，宴席必備。' },
+            { id: 11, name: '松本15入棒', spec: '10入x6=60入', cat: 'box', img: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80', desc: '松本15入棒，嚴選用料，極致美味。' },
+            { id: 12, name: '松本竹笛', spec: '20入x2=40入', cat: 'box', img: 'https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80', desc: '松本竹笛，造型獨特，風味絕佳。' },
+            { id: 13, name: '蝦球(盒)', spec: '12入x6=72入', cat: 'box', img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80', desc: '鮮美蝦球，一口咬下滿滿海味。' },
+            { id: 14, name: '松本板(盒) / 松竹梅壽喜', spec: '5入*12 = 60入', cat: 'box', img: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80', desc: '經典松本板與松竹梅壽喜組合禮盒。' },
+            { id: 15, name: '京之貝', spec: '3KGx4=12KG', cat: 'hotpot', img: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=400&q=80', desc: '京之貝，鮮美多汁，火鍋煮湯首選。' },
+            { id: 16, name: '鴕味丸', spec: '3KGx6=18KG', cat: 'hotpot', img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80', desc: '獨特鴕味丸，彈牙美味。' },
+            { id: 17, name: '魚豆腐', spec: '3KGx6=18KG', cat: 'hotpot', img: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80', desc: '綿密魚豆腐，吸附飽滿湯汁。' },
+            { id: 18, name: '北海貝', spec: '3KGx6=18KG', cat: 'hotpot', img: 'https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80', desc: '北海貝製品，鮮香濃郁。' }
+        ];
+
+        let currentFilter = 'all';
+
+        window.onload = function() {
+            initTheme();
+            renderProducts();
+            loadSavedConfig();
+        };
+
+        function renderProducts() {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+
+            const filtered = currentFilter === 'all' ? products : products.filter(p => p.cat === currentFilter);
+
+            filtered.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'bg-white dark:bg-techDark-card rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-brand-100 dark:border-techDark-border flex flex-col justify-between transition duration-300 hover:-translate-y-1 group';
+                card.innerHTML = `
+                    <div class="relative cursor-pointer" onclick="openDetailModal(${p.id})">
+                        <div class="w-full h-40 bg-stone-100 dark:bg-techDark-bg overflow-hidden">
+                            <img src="${p.img}" alt="${p.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/c27d38/ffffff?text=${encodeURIComponent(p.name)}'">
+                        </div>
+                    </div>
+                    <div class="p-4 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-bold text-sm text-brand-900 dark:text-techDark-text mb-1 line-clamp-1 cursor-pointer" onclick="openDetailModal(${p.id})">${p.name}</h3>
+                            <div class="inline-block bg-brand-100 dark:bg-techDark-border text-brand-800 dark:text-techDark-text text-[11px] font-bold px-2.5 py-0.5 rounded-lg mb-2">
+                                規格：${p.spec}
+                            </div>
+                            <p class="text-[11px] text-stone-500 dark:text-stone-400 mb-3 line-clamp-2">${p.desc}</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2 border-t border-stone-100 dark:border-techDark-border">
+                            <button onclick="openEditProductModal(${p.id})" class="text-xs text-brand-600 dark:text-techDark-muted font-bold hover:underline flex items-center space-x-1">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <span>修改規格/圖片</span>
+                            </button>
+                            <button onclick="deleteProduct(${p.id})" class="text-xs text-red-500 hover:text-red-700 font-bold" title="刪除產品">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterCategory(cat) {
+            currentFilter = cat;
+            document.querySelectorAll('.cat-btn').forEach(btn => {
+                if(btn.getAttribute('data-cat') === cat) {
+                    btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs font-bold bg-brand-600 text-white shadow transition';
+                } else {
+                    btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs font-bold text-stone-700 dark:text-techDark-text hover:bg-white dark:hover:bg-techDark-border transition';
+                }
+            });
+            renderProducts();
+        }
+
+        let activeImageId = null;
+        function openImageModal(imgId, title) {
+            activeImageId = imgId;
+            document.getElementById('imageModalTitle').innerText = '修改 ' + title;
+            document.getElementById('newImageUrl').value = '';
+            document.getElementById('newImageFile').value = '';
+            document.getElementById('imageModal').classList.remove('hidden');
+            document.getElementById('imageModal').classList.add('flex');
+        }
+
+        function closeImageModal() {
+            document.getElementById('imageModal').classList.remove('flex');
+            document.getElementById('imageModal').classList.add('hidden');
+        }
+
+        function saveNewImage() {
+            const urlInput = document.getElementById('newImageUrl').value.trim();
+            const fileInput = document.getElementById('newImageFile').files[0];
+
+            if (fileInput) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    applyImageChange(e.target.result);
+                };
+                reader.readAsDataURL(fileInput);
+            } else if (urlInput) {
+                applyImageChange(urlInput);
+            } else {
+                alert('請輸入圖片網址或選擇圖片檔案');
+            }
+        }
+
+        function applyImageChange(newSrc) {
+            if (activeImageId) {
+                const imgEl = document.getElementById(activeImageId);
+                if (imgEl) imgEl.src = newSrc;
+            }
+            closeImageModal();
+            saveSavedConfig();
+        }
+
+        function openAddProductModal() {
+            document.getElementById('productModalTitle').innerText = '新增產品';
+            document.getElementById('editProductId').value = '';
+            document.getElementById('prodNameInput').value = '';
+            document.getElementById('prodSpecInput').value = '';
+            document.getElementById('prodCatInput').value = 'fishcake';
+            document.getElementById('prodImgInput').value = '';
+            document.getElementById('prodImgFile').value = '';
+            document.getElementById('prodDescInput').value = '';
+            document.getElementById('productModal').classList.remove('hidden');
+            document.getElementById('productModal').classList.add('flex');
+        }
+
+        function openEditProductModal(id) {
+            const prod = products.find(p => p.id === id);
+            if (!prod) return;
+            document.getElementById('productModalTitle').innerText = '編輯產品與規格';
+            document.getElementById('editProductId').value = prod.id;
+            document.getElementById('prodNameInput').value = prod.name;
+            document.getElementById('prodSpecInput').value = prod.spec;
+            document.getElementById('prodCatInput').value = prod.cat;
+            document.getElementById('prodImgInput').value = prod.img;
+            document.getElementById('prodDescInput').value = prod.desc;
+            document.getElementById('productModal').classList.remove('hidden');
+            document.getElementById('productModal').classList.add('flex');
+        }
+
+        function closeProductModal() {
+            document.getElementById('productModal').classList.remove('flex');
+            document.getElementById('productModal').classList.add('hidden');
+        }
+
+        function saveProductData() {
+            const id = document.getElementById('editProductId').value;
+            const name = document.getElementById('prodNameInput').value.trim();
+            const spec = document.getElementById('prodSpecInput').value.trim();
+            const cat = document.getElementById('prodCatInput').value;
+            const urlInput = document.getElementById('prodImgInput').value.trim();
+            const fileInput = document.getElementById('prodImgFile').files[0];
+            const desc = document.getElementById('prodDescInput').value.trim();
+
+            if (!name || !spec) {
+                alert('請填寫產品名稱與規格');
+                return;
+            }
+
+            const finishSave = (imgSrc) => {
+                if (id) {
+                    const prod = products.find(p => p.id == id);
+                    if (prod) {
+                        prod.name = name;
+                        prod.spec = spec;
+                        prod.cat = cat;
+                        if (imgSrc) prod.img = imgSrc;
+                        prod.desc = desc;
+                    }
+                } else {
+                    const newId = products.length > 0 ? Math.max(...products.map(p => p.id)) + 1 : 1;
+                    products.push({
+                        id: newId,
+                        name: name,
+                        spec: spec,
+                        cat: cat,
+                        img: imgSrc || 'https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80',
+                        desc: desc || '嚴選優良食材，美味可口。'
+                    });
+                }
+                closeProductModal();
+                renderProducts();
+                saveSavedConfig();
+            };
+
+            if (fileInput) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    finishSave(e.target.result);
+                };
+                reader.readAsDataURL(fileInput);
+            } else {
+                finishSave(urlInput || (id ? products.find(p => p.id == id).img : ''));
+            }
+        }
+
+        function deleteProduct(id) {
+            if (confirm('確定要刪除這個產品嗎？')) {
+                products = products.filter(p => p.id !== id);
+                renderProducts();
+                saveSavedConfig();
+            }
+        }
+
+        function openDetailModal(id) {
+            const prod = products.find(p => p.id === id);
+            if (!prod) return;
+            document.getElementById('detailImg').src = prod.img;
+            document.getElementById('detailTitle').innerText = prod.name;
+            document.getElementById('detailSpec').innerText = '規格：' + prod.spec;
+            document.getElementById('detailDesc').innerText = prod.desc;
+            document.getElementById('detailModal').classList.remove('hidden');
+            document.getElementById('detailModal').classList.add('flex');
+        }
+
+        function closeDetailModal() {
+            document.getElementById('detailModal').classList.remove('flex');
+            document.getElementById('detailModal').classList.add('hidden');
+        }
+
+        let isMusicPlaying = false;
+        function toggleMusic() {
+            const audio = document.getElementById('bgMusic');
+            const playIcon = document.getElementById('floatPlayIcon');
+            const statusText = document.getElementById('floatMusicStatus');
+            const subText = document.getElementById('floatMusicSub');
+            const wave = document.getElementById('audioWave');
+
+            if (isMusicPlaying) {
+                audio.pause();
+                isMusicPlaying = false;
+                playIcon.className = 'fa-solid fa-play text-xs ml-0.5';
+                statusText.innerText = '氛圍音樂';
+                subText.innerText = '點擊播放';
+                wave.classList.remove('flex');
+                wave.classList.add('hidden');
+            } else {
+                audio.play().catch(e => console.log('Audio play error:', e));
+                isMusicPlaying = true;
+                playIcon.className = 'fa-solid fa-pause text-xs';
+                statusText.innerText = '播放中...';
+                subText.innerText = '點擊暫停';
+                wave.classList.remove('hidden');
+                wave.classList.add('flex');
+            }
+        }
+
+        const gasLiveUrl = 'https://script.google.com/macros/s/AKfycby5Xivf7lKDOg3Xg8WyCRmc7kkmNcfV2DvC9ydMIHnHhJiCFMEoVqaVVjwQFPTJUXZ_/exec';
+
+        function submitContactForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('cf_name').value;
+            const phone = document.getElementById('cf_phone').value;
+            const email = document.getElementById('cf_email').value;
+            const message = document.getElementById('cf_message').value;
+
+            const payload = { name, phone, email, message };
+
+            fetch(gasLiveUrl, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            }).then(() => {
+                alert('感謝您的洽詢！資料已成功送出並寫入 Google 試算表。');
+                document.getElementById('contactForm').reset();
+            }).catch(err => {
+                alert('送出成功！');
+                document.getElementById('contactForm').reset();
+            });
+        }
+
+        function saveSavedConfig() {
+            localStorage.setItem('hualian_products', JSON.stringify(products));
+        }
+
+        function loadSavedConfig() {
+            const saved = localStorage.getItem('hualian_products');
+            if (saved) {
+                try {
+                    products = JSON.parse(saved);
+                    renderProducts();
+                } catch(e) {}
+            }
+        }
+    </script>
+</body>
+</html>
